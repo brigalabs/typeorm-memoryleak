@@ -1,6 +1,8 @@
 # Memory leak on createConnection
 
-This repository is to demo a memory leak present when using JEST with typeorm connection. To experience the issue run:
+This repository is to demo a memory leak related to https://github.com/typeorm/typeorm/issues/6164 . When using jest with typeorm connection, I experience the issue.
+
+To reproduce:
 
 ```sh
 yarn test
