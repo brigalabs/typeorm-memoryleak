@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn node --expose-gc ./node_modules/jest/bin/jest.js --runInBand --logHeapUsage --detectLeaks src/models/organization/__tests__/leak.test.ts"
+    "test": "yarn node --expose-gc ./node_modules/jest/bin/jest.js --runInBand --logHeapUsage --detectLeaks src/leak.test.ts"
   },
   "dependencies": {
     "@types/jest": "^25.2.3",
