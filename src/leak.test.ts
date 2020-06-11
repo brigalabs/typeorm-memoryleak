@@ -13,4 +13,3 @@ describe("leak detector", () => {
     await conn.close();
   });
 });
-
